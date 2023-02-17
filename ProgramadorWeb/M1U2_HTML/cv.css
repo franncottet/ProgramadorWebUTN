@@ -1,0 +1,27 @@
+
+body
+{
+    margin-left: 50px;
+    font-family: inter;
+}
+
+h1{
+    font-weight: 600;
+}
+
+.foto {
+    border-radius: 14px;
+}
+
+
+
+p{
+    
+    font-weight: 400;
+    margin-right: 200px;
+    padding-right: 600px;
+}
+
+h2{
+    font-weight: 600;
+}

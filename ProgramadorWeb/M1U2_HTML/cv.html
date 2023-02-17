@@ -12,20 +12,23 @@
 <div>
  <h1  > Hola, soy Franco Cottet</h1>
 
- <img class="foto" src="fotoPerfil.jpg" alt="Foto de Franco Cottet" width="100px">
+ <img class="foto" src="fotoPerfil.jpg" alt="Foto de Franco Cottet" width="150px">
 
-</div>
-
-<div>
-
-  <div class="datosPersonales">
-<h2>Datos Personales</h2>
+ <div class="datosPersonales">
+  <h2>Datos Personales</h2>
     <p>Edad: 20 años </p>
     <p>Email: cottetfranco@gmail.com </p>
     <p>Ciudad: Santa Fe, Argentina </p>
     
   </div>
 
+</div>
+
+<div>
+
+  
+
+<div class="conocimientos">
   <h2>Conocimientos y experiencias</h2>
     
   <ul>
@@ -36,11 +39,32 @@
     <li>Fotografía y video</li>
     <li>Edición y post-producción de contenido Digital </li>
   </ul>
-    
+</div>
+
+<div class="about">
 <h2>Sobre mí</h2>
     <p>Soy estudiante de la carrera de Diseño Digital en el Instituto de Estudios Superiores de Santa Fe. Me apasiona el mundo de la comunicación en el Internet y la capacidad de este para un sinfín de soluciones y oportunidades. <br> Estudio Diseño UX/UI y también programación y Diseño Web; los considero indispensables para entender mejor la Web y para capacitarme de cara a futuros trabajos.</p>
+</div>
 
-    <h2>C</h2>
+  <div class="formulario">
+   <h2>Contactame aquí:</h2>
+   <form action="submit.php" method="POST">
+
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+      <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+     </div>
+     <div class="msj">
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+   </div>
 </div>
    
 
